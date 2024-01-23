@@ -2,9 +2,10 @@
 PDF files with binary encoding of the op-codes  
 The instructions are of either 24 or 32 bits  
 Each instruction and its formats are listed  
-There is op-code space reserved for 40 and 48-bit op-codes  
-The 24 and 32-bit formats are 80% full, and it is likely  
-the 48-bit instruction categorey will support multiple instruction lengths  
+There is op-code space reserved for 40 and 48-bit instructions  
+The 24 and 32-bit formats are 80% full, and it is likely the  
+48-bit instruction categorey will support multiple instruction lengths  
+Some details still in flux.  Supported/non-supported op-codes TBD  
 # ROC32_8  
 Specification for implementation of a 32-bit RISC architecture  
 There are 32 registers of 32 bits  
