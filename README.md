@@ -1,3 +1,17 @@
+# ROC24_4sz_ISA_encoding and ROC24_4sz_binary_sort
+Have done binary encoding of the ISA for four data types and four data sizes  
+The encoding PDF is by op-code category and the sort PDF is by binary op-code  
+Have no intention of doing a full implementation, e.g. many op-codes are reserved  
+The vast majority of the 40 and 48-bit instructions are unallocated,  
+and could be used for additional 24 and 32-bit instructions  
+## The set of data types under consideration are
+  Unsigned binary  
+  Two's complement binary  
+  Sign and magnitude with negative zero code used as missing or invalid  
+  IEEE 754 floating-point with denorms flushed to zero  
+  Modified 754 with gradual underflow and gradual overflow,  
+    supporting both exact and inexact values,  
+    with inexact values rounded to nearest half odd  
 # ROC24_ISA_detail and ROC24_opcode_sort  
 PDF files with binary encoding of the op-codes  
 The instructions are of either 24 or 32 bits  
